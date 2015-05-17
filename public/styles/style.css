@@ -37,10 +37,12 @@ p.headline {
   color: black;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 14px;
+  list-style-image: arrow.gif 
 }
 
 p.subhead {
   color: #8d90a1;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 12px;
+  padding-left: 12px;
 }
