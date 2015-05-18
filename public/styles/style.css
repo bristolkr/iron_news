@@ -73,7 +73,7 @@ ul li {
 }
 
 ul li:last-child {
-  border-left: none;
+  border-right: none;
 }
 
 #login {
@@ -116,16 +116,31 @@ hr {
   clear: all;
   color: black;
   text-align: center;
-  padding: 10px;
-  border-left: 1px solid black;
-
+  position: center;
+  
 }
 
 #footer:last-child {
-  border-left: none;
+  border-right: none;
 }
 
 #foot_menu {
- clear: all;
+  clear: all;
   text-align: center;
+  position: center;
+}
+
+.feet {
+  padding: 10px;
+  border-right: 1px solid black;
+  text-align: center;
+  position: center;
+}
+
+#search {
+  clear: all;
+  text-align: center;
+  width: 200px;
+  display: inline-block;
+  
 }
