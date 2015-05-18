@@ -10,11 +10,8 @@ p {
   font-family: Verdana, Geneva, sans-serif;
 }
 
-/* subheading color: #828282*/
-
 #container {
   width: 100%;
-
 
 }
 
@@ -53,9 +50,8 @@ p {
 }
 
 ul li {
-  
   display: inline-block;
-  border-left: white 2px;
+  border-right: 2px white;
   float: left;
   color: black;
   padding-left: 20px;
