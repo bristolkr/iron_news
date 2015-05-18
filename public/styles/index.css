@@ -119,27 +119,26 @@ hr {
 }
 
 #footer {
-  /*max-width: 1000px;*/
+ /*text-align: center;*/
   
 }
 
 
-.foot_menu {
-  /*width: 900px;*/
-  color: black;
-  
-/*  float: left;*/
-  
+.foot_menu { 
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 6px;
+  
 }
 
 ul.foot li {
   display: inline-block;
-  border-right: 1px solid black;
-  text-align: center;
+  border-right: 1px solid #8d90a1;
+  color: black; 
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 6px;
 }
 
 ul.foot li:last-child {
