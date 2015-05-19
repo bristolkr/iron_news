@@ -15,12 +15,12 @@ server.mount '/assets', WEBrick::HTTPServlet::FileHandler, "#{ROOT}/assets"
 
 server.mount_proc '/' do |req, res|
   # data = YAML.load_file('data.yml')
-  template = Tilt.new("#{ROOT}/index.slim")
+  template = Tilt.new("#{ROOT}/assets/index.slim")
   res.body = template.render
 end
 
 server.mount_proc '/index.css' do |req, res|
-  res.body = Tilt.new("#{ROOT}/styles/index.sass").render
+  res.body = Tilt.new("#{ROOT}assets/styles/index.sass").render
 end
 
 trap 'INT' do
